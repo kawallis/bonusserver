@@ -1,0 +1,19 @@
+{
+  "name": "otherbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^5.1.0",
+    "hapi": "^16.4.3",
+    "hapi-bodyparser": "^1.0.2",
+    "hapi-mongoose": "^1.0.1",
+    "mongojs": "^2.4.0"
+  }
+}
